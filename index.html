@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>Project 110</title>
+        <link href="style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    </head>
+    <body id="body">
+        <center>
+            <h1>Case Study
+                <img id="heading_img" src="case_study.png">
+            </h1>
+            <h3 style="color:red;">*All outputs are incredibly inaccurate to picture</h3>
+            <hr style="width:80%">
+            <br><br>
+            <ol>
+                <div class="text_img_result">
+                    <li class="model">
+                        <b>Test Image - </b>
+                        <br>
+                        <img src="cube.jpeg" class="test_img" class="img-responsive">
+                    </li>
+                    <br><br>
+                    <h5 class="output_MA">Output on Microsoft Azure - 
+                        <span>a remote control</span> </h5>
+                        
+                        <h5 class="output_MM">Output on Mobilenet Model - 
+                            <span>projector</span>
+                        </h5>
+                    <br><br>
+                    <li class="model">
+                        <b>Test Image - </b>
+                        <br>
+                        <img src="pencil.jpeg" class="test_img" class="img-responsive">
+                    </li>
+                    <br><br>
+                    <h5 class="output_MA">Output on Microsoft Azure - 
+                        <span>a wooden cutting board</span> </h5>
+                        
+                        <h5 class="output_MM">Output on Mobilenet Model - 
+                            <span>hair slide</span>
+                        </h5>
+                    <br><br>
+                    <li class="model">
+                        <b>Test Image - </b>
+                        <br>
+                        <img src="marker.jpeg" class="test_img" class="img-responsive">
+                    </li>
+                    <br><br>
+                    <h5 class="output_MA">Output on Microsoft Azure - 
+                        <span>a close up of a game</span> </h5>
+                        
+                        <h5 class="output_MM">Output on Mobilenet Model - 
+                            <span>pole</span>
+                        </h5>
+                    <br><br>
+                    <li class="model">
+                        <b>Test Image - </b>
+                        <br>
+                        <img src="joker.jpeg" class="test_img" class="img-responsive">
+                    </li>
+                    <br><br>
+                    <h5 class="output_MA">Output on Microsoft Azure - 
+                        <span>a close up of a newspaper</span> </h5>
+                        
+                        <h5 class="output_MM">Output on Mobilenet Model - 
+                            <span>website</span>
+                        </h5>
+                    <br><br>
+                    <li class="model">
+                        <b>Test Image - </b>
+                        <br>
+                        <img src="2heart.jpeg" class="test_img" class="img-responsive">
+                    </li>
+                    <br><br>
+                    <h5 class="output_MA">Output on Microsoft Azure - 
+                    <span>a close up of a sign</span> </h5>
+                    
+                    <h5 class="output_MM">Output on Mobilenet Model -
+                        <span>modem</span>
+                    </h5>
+                    
+                    <div class="bob3">
+                        <h4>Result - </h4>
+                        <hr>
+                        <h4>Microsoft Azure got 1 correct and Mobilenet Model got 0 so Microsoft Azure is better in this situation</h4>
+                    </div>
+                </div>
+            </ol>
+
+        </center>
+        <script src="main.js"></script>
+    </body>
+</html>

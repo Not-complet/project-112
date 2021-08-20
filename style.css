@@ -1,0 +1,29 @@
+html, #body{
+    background-color: rgb(104, 184, 204);
+}
+#heading_img{
+    width:100px;
+}
+.test_img{
+    width:300px;
+    margin-bottom: 10px;
+}
+.model{
+    border-radius: 5px;
+    background: white;
+    box-shadow: 5px 5px 10px black;
+    width:350px;
+
+}
+.output_MM, .output_MA, .bob3{
+    background: lavender;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    width:auto;
+    height: auto;
+}
+
